@@ -1,0 +1,225 @@
+Last login: Fri Aug 21 02:34:08 on ttys000
+zaids-iMac:~ zaidbarg$ ~/.vimrc
+-bash: /Users/zaidbarg/.vimrc: Permission denied
+zaids-iMac:~ zaidbarg$ /.vimrc
+-bash: /.vimrc: No such file or directory
+zaids-iMac:~ zaidbarg$ vim hello.py
+Error detected while processing /Users/zaidbarg/.vimrc:
+line    1:
+E185: Cannot find color scheme 'wombat256'
+Press ENTER or type command to continue
+[1]+  Stopped                 vim hello.py
+zaids-iMac:~ zaidbarg$ vim ~/.vimrc
+Error detected while processing /Users/zaidbarg/.vimrc:
+line    1:
+E185: Cannot find color scheme 'wombat256'
+Press ENTER or type command to continue
+zaids-iMac:~ zaidbarg$ vim hello.py
+
+[2]+  Stopped                 vim hello.py
+zaids-iMac:~ zaidbarg$ vim ~/.vimrc
+zaids-iMac:~ zaidbarg$ vim ~/.vimrc
+
+[3]+  Stopped                 vim ~/.vimrc
+zaids-iMac:~ zaidbarg$ vim hello.py
+
+[4]+  Stopped                 vim hello.py
+zaids-iMac:~ zaidbarg$ vim ~/.vimrc
+
+[5]+  Stopped                 vim ~/.vimrc
+zaids-iMac:~ zaidbarg$ vim ~/.vimrc
+zaids-iMac:~ zaidbarg$ vim ~/.vimrc
+Error detected while processing /Users/zaidbarg/.vimrc:
+line    1:
+E492: Not an editor command: et nocompatible
+line    4:
+E492: Not an editor command: Plugin 'gmarik/Vundle.vim'
+line    9:
+E492: Not an editor command: Plugin 'scrooloose/nerdtree'
+line   14:
+E117: Unknown function: vundle#end
+Press ENTER or type command to continue
+[6]+  Stopped                 vim ~/.vimrc
+zaids-iMac:~ zaidbarg$ vim ~/.vimrc
+Error detected while processing /Users/zaidbarg/.vimrc:
+line    1:
+E492: Not an editor command: et nocompatible
+line    4:
+E492: Not an editor command: Plugin 'gmarik/Vundle.vim'
+line    9:
+E492: Not an editor command: Plugin 'scrooloose/nerdtree'
+line   14:
+E117: Unknown function: vundle#end
+Press ENTER or type command to continue
+zaids-iMac:~ zaidbarg$ vim ~/.vimrc
+
+[7]+  Stopped                 vim ~/.vimrc
+zaids-iMac:~ zaidbarg$ vim ~/.vimrc
+zaids-iMac:~ zaidbarg$ vim ~/.vimrc
+Error detected while processing /Users/zaidbarg/.vimrc:
+line   74:
+E185: Cannot find color scheme 'base16-default'
+line  162:
+E117: Unknown function: vundle#begin
+line  167:
+E492: Not an editor command: Plugin 'gmarik/Vundle.vim'
+line  172:
+E492: Not an editor command: Plugin 'tpope/vim-fugitive'  " Git integration
+line  173:
+E492: Not an editor command: Plugin 'Lokaltog/vim-easymotion'  " Quick movement
+line  174:
+E492: Not an editor command: Plugin 'tomtom/tcomment_vim'  " extensible & universal comment
+line  175:
+E492: Not an editor command: Plugin 'scrooloose/nerdtree'  " file structure viewer
+line  176:
+E492: Not an editor command: Plugin 'kshenoy/vim-signature'  " place, toggle and display marks
+line  177:
+E492: Not an editor command: Plugin 'bling/vim-airline'  " vim status bar
+line  178:
+E492: Not an editor command: Plugin 'kien/ctrlp.vim' " fuzzy search
+line  179:
+E492: Not an editor command: Plugin 'tinyheero/vim-snippets'  " fork of honza/vim-snippets
+line  180:
+E492: Not an editor command: Plugin 'edkolev/tmuxline.vim'  " improves the tmux status bar and integrates with the vim-airline
+line  181:
+E492: Not an editor command: Plugin 'scrooloose/syntastic'  " adds syntax checking
+line  182:
+E492: Not an editor command: Plugin 'tpope/vim-surround'  " quoting and parenthesizing made simple
+line  183:
+E492: Not an editor command: Plugin 'tpope/vim-repeat'  " enable repeating supported plugin maps with
+line  184:
+E492: Not an editor command: Plugin 'vitalk/vim-simple-todo'
+line  185:
+E492: Not an editor command: Plugin 'MarcWeber/vim-addon-mw-utils'  " dependency of vim-snipmate
+line  186:
+E492: Not an editor command: Plugin 'tomtom/tlib_vim'  " dependency of vim-snipmate
+line  187:
+E492: Not an editor command: Plugin 'garbas/vim-snipmate'  " fork of the original SnipMate 
+line  188:
+E492: Not an editor command: Plugin 'christoomey/vim-tmux-navigator'  " seamless navigation between tmux and vim panes
+line  194:
+E492: Not an editor command: Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+line  199:
+E117: Unknown function: vundle#end
+Press ENTER or type command to continue
+zaids-iMac:~ zaidbarg$ vim ~/.vimrc
+Error detected while processing /Users/zaidbarg/.vimrc:
+line   74:
+E185: Cannot find color scheme 'base16-default'
+line  162:
+E117: Unknown function: vundle#begin
+line  167:
+E492: Not an editor command: Plugin 'gmarik/Vundle.vim'
+line  172:
+E492: Not an editor command: Plugin 'tpope/vim-fugitive'  " Git integration
+line  173:
+E492: Not an editor command: Plugin 'Lokaltog/vim-easymotion'  " Quick movement
+line  174:
+E492: Not an editor command: Plugin 'tomtom/tcomment_vim'  " extensible & universal comment
+line  175:
+E492: Not an editor command: Plugin 'scrooloose/nerdtree'  " file structure viewer
+line  176:
+E492: Not an editor command: Plugin 'kshenoy/vim-signature'  " place, toggle and display marks
+line  177:
+E492: Not an editor command: Plugin 'bling/vim-airline'  " vim status bar
+line  178:
+E492: Not an editor command: Plugin 'kien/ctrlp.vim' " fuzzy search
+line  179:
+E492: Not an editor command: Plugin 'tinyheero/vim-snippets'  " fork of honza/vim-snippets
+line  180:
+E492: Not an editor command: Plugin 'edkolev/tmuxline.vim'  " improves the tmux status bar and integrates with the vim-airline
+line  181:
+E492: Not an editor command: Plugin 'scrooloose/syntastic'  " adds syntax checking
+line  182:
+E492: Not an editor command: Plugin 'tpope/vim-surround'  " quoting and parenthesizing made simple
+line  183:
+E492: Not an editor command: Plugin 'tpope/vim-repeat'  " enable repeating supported plugin maps with
+line  184:
+E492: Not an editor command: Plugin 'vitalk/vim-simple-todo'
+line  185:
+E492: Not an editor command: Plugin 'MarcWeber/vim-addon-mw-utils'  " dependency of vim-snipmate
+line  186:
+E492: Not an editor command: Plugin 'tomtom/tlib_vim'  " dependency of vim-snipmate
+line  187:
+E492: Not an editor command: Plugin 'garbas/vim-snipmate'  " fork of the original SnipMate 
+line  188:
+E492: Not an editor command: Plugin 'christoomey/vim-tmux-navigator'  " seamless navigation between tmux and vim panes
+line  194:
+E492: Not an editor command: Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+line  199:
+E117: Unknown function: vundle#end
+line  214:
+E185: Cannot find color scheme 'wombat256'
+Press ENTER or type command to continue
+[8]+  Stopped                 vim ~/.vimrc
+zaids-iMac:~ zaidbarg$ vim ~/.vimrc
+Error detected while processing /Users/zaidbarg/.vimrc:
+line   74:
+E185: Cannot find color scheme 'base16-default'
+line  162:
+E117: Unknown function: vundle#begin
+line  167:
+E492: Not an editor command: Plugin 'gmarik/Vundle.vim'
+line  172:
+E492: Not an editor command: Plugin 'tpope/vim-fugitive'  " Git integration
+line  173:
+E492: Not an editor command: Plugin 'Lokaltog/vim-easymotion'  " Quick movement
+line  174:
+E492: Not an editor command: Plugin 'tomtom/tcomment_vim'  " extensible & universal comment
+line  175:
+E492: Not an editor command: Plugin 'scrooloose/nerdtree'  " file structure viewer
+line  176:
+E492: Not an editor command: Plugin 'kshenoy/vim-signature'  " place, toggle and display marks
+line  177:
+E492: Not an editor command: Plugin 'bling/vim-airline'  " vim status bar
+line  178:
+E492: Not an editor command: Plugin 'kien/ctrlp.vim' " fuzzy search
+line  179:
+E492: Not an editor command: Plugin 'tinyheero/vim-snippets'  " fork of honza/vim-snippets
+line  180:
+E492: Not an editor command: Plugin 'edkolev/tmuxline.vim'  " improves the tmux status bar and integrates with the vim-airline
+line  181:
+E492: Not an editor command: Plugin 'scrooloose/syntastic'  " adds syntax checking
+line  182:
+E492: Not an editor command: Plugin 'tpope/vim-surround'  " quoting and parenthesizing made simple
+line  183:
+E492: Not an editor command: Plugin 'tpope/vim-repeat'  " enable repeating supported plugin maps with
+line  184:
+E492: Not an editor command: Plugin 'vitalk/vim-simple-todo'
+line  185:
+E492: Not an editor command: Plugin 'MarcWeber/vim-addon-mw-utils'  " dependency of vim-snipmate
+line  186:
+E492: Not an editor command: Plugin 'tomtom/tlib_vim'  " dependency of vim-snipmate
+line  187:
+E492: Not an editor command: Plugin 'garbas/vim-snipmate'  " fork of the original SnipMate 
+line  188:
+E492: Not an editor command: Plugin 'christoomey/vim-tmux-navigator'  " seamless navigation between tmux and vim panes
+line  194:
+E492: Not an editor command: Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+line  199:
+E117: Unknown function: vundle#end
+line  214:
+E185: Cannot find color scheme 'wombat256'
+Press ENTER or type command to continue
+198 " All of your Plugins must be added before the following line
+199 call vundle#end()            " required
+200 filetype plugin indent on    " required
+201 " To ignore plugin indent changes, instead use:
+202 "filetype plugin on
+203 "
+204 " Brief help
+205 " :PluginList       - lists configured plugins
+206 " :PluginInstall    - installs plugins; append `!` to update or just :Plugin    Update
+207 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
+208 " :PluginClean      - confirms removal of unused plugins; append `!` to auto    -approve removal
+209 "
+210 " see :h vundle for more details or wiki for FAQ
+211 " Put your non-Plugin stuff after this line
+212 
+213 filetype on                   " required!
+214  set background=dark
+~                                                                               
+~                                                                               
+.vimrc [+]                                                    213,42         Bot
+
+-- INSERT --
